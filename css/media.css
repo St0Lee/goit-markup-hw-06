@@ -191,6 +191,20 @@
     max-width: 100%;
     width: 408px;
   }
+
+  /* Porfolio */
+
+  .filter-buttons-section {
+    margin-top: 64px;
+    margin-bottom: 96px;
+  }
+
+  .filter-buttons-list {
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 64px;
+    gap: 24px;
+  }
 }
 
 /*PC*/
@@ -362,5 +376,16 @@
 
   .footer-subscribe-mail::placeholder {
     opacity: 1;
+  }
+
+  /* Portfolio */
+
+  .filter-buttons-section {
+    margin-top: 100px;
+    margin-bottom: 120px;
+  }
+
+  .filter-buttons-list {
+    margin-bottom: 72px;
   }
 }

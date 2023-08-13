@@ -382,6 +382,7 @@ body {
 /*Studio*/
 
 .order-service-section {
+  margin: 0 auto;
   max-width: 428px;
   background-repeat: no-repeat;
   background-position: center;
@@ -650,15 +651,14 @@ body {
 /*Portfolio*/
 
 .filter-buttons-section {
-  padding-top: 96px;
-  padding-bottom: 120px;
+  margin: 48px 0;
 }
 
 .filter-buttons-list {
   display: flex;
-  gap: 24px;
-  margin: 0 auto 72px;
-  justify-content: center;
+  gap: 24px 16px;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
 }
 
 .filter-button {
@@ -715,7 +715,8 @@ body {
 
 .portfolio-item {
   background: var(--white-background);
-  width: calc((100% - 2 * 24px) / 3);
+  margin: 0 auto;
+  /* width: calc((100% - 2 * 24px) / 3); */
   display: block;
 }
 
