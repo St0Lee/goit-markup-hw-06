@@ -171,7 +171,7 @@ body {
 
 .mob-menu-tel {
   display: flex;
-  font-size: 36px;
+  font-size: 26px;
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: 0.02em;
@@ -194,7 +194,7 @@ body {
   fill: var(--light);
   display: flex;
   flex-wrap: wrap;
-  gap: 56px;
+  gap: 32px;
 }
 
 .menu-social-links {
@@ -383,7 +383,7 @@ body {
 
 .order-service-section {
   margin: 0 auto;
-  max-width: 428px;
+  max-width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -710,13 +710,13 @@ body {
 .portfolio-picture-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 48px 24px;
+  gap: 24px;
 }
 
 .portfolio-item {
   background: var(--white-background);
   margin: 0 auto;
-  /* width: calc((100% - 2 * 24px) / 3); */
+
   display: block;
 }
 
@@ -828,7 +828,7 @@ img {
   transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 72px 24px 24px 24px;
+  padding: 72px 16px 24px 16px;
 }
 
 .backdrop.is-hidden .modal {
@@ -947,7 +947,6 @@ img {
 
 .modal-input-container {
   position: relative;
-  margin-bottom: 16px;
 }
 
 .modal-checkbox-container {
@@ -977,7 +976,7 @@ img {
 .modal-form-link {
   color: var(--primary-brand);
   text-decoration-line: underline;
-  margin-left: 5px;
+  margin-left: 2px;
 }
 
 .modal-form-check:checked + .modal-check-text span {

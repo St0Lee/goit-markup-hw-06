@@ -4,6 +4,14 @@
   .container {
     max-width: 426px;
   }
+
+  .mob-menu-tel {
+    font-size: 36px;
+  }
+
+  .menu-social-icon {
+    gap: 56px;
+  }
 }
 
 /*tablet*/
@@ -81,7 +89,7 @@
 
   .order-service-section {
     margin: 0 auto;
-    max-width: 768px;
+    max-width: 100%;
     height: 436px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -190,6 +198,7 @@
   .modal {
     max-width: 100%;
     width: 408px;
+    padding: 72px 24px 24px 24px;
   }
 
   /* Porfolio */
@@ -204,6 +213,17 @@
     justify-content: center;
     margin-bottom: 64px;
     gap: 24px;
+  }
+
+  /* Portfolio */
+
+  .portfolio-picture-list {
+    gap: 72px 24px;
+  }
+
+  .portfolio-item {
+    margin-left: 0;
+    width: calc((100% - 24px) / 2);
   }
 }
 
@@ -387,5 +407,13 @@
 
   .filter-buttons-list {
     margin-bottom: 72px;
+  }
+
+  .portfolio-picture-list {
+    gap: 48px 24px;
+  }
+
+  .portfolio-item {
+    width: calc((100% - 2 * 24px) / 3);
   }
 }
